@@ -44,3 +44,16 @@ This project demonstrates skills in **IoT, embedded systems, cloud databases, re
 - Telegram Bot API  
 - dotenv  
 - REST API (JSON data)
+
+--
+## 📁 Project Structure
+
+├── public/ # Frontend (optional)
+├── server.js # Main backend server
+├── package.json
+├── package-lock.json
+├── database/ # SQL setup (optional)
+├── esp32/ # Firmware code (optional)
+├── .env.example
+├── .gitignore
+└── README.md
