@@ -48,12 +48,4 @@ This project demonstrates skills in **IoT, embedded systems, cloud databases, re
 --
 ## 📁 Project Structure
 
-├── public/ # Frontend (optional)
-├── server.js # Main backend server
-├── package.json
-├── package-lock.json
-├── database/ # SQL setup (optional)
-├── esp32/ # Firmware code (optional)
-├── .env.example
-├── .gitignore
-└── README.md
+<img width="214" height="264" alt="image" src="https://github.com/user-attachments/assets/de99a52d-1486-4a6c-a8b3-ea772394433f" />
