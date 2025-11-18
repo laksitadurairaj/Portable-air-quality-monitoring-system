@@ -49,3 +49,32 @@ This project demonstrates skills in **IoT, embedded systems, cloud databases, re
 ## 📁 Project Structure
 
 <img width="214" height="264" alt="image" src="https://github.com/user-attachments/assets/de99a52d-1486-4a6c-a8b3-ea772394433f" />
+
+---
+
+## 🔧 How It Works
+
+1. ESP32 reads gas values from MQ sensors.  
+2. Raw analog values are converted into ppm using calibration formulas.  
+3. Every 60 seconds, ESP32 sends the data to the backend as JSON:
+
+<img width="227" height="141" alt="image" src="https://github.com/user-attachments/assets/24d0c7f4-3455-42c9-bc61-b4bafccbde47" />
+
+4. The backend stores data in PostgreSQL.  
+5. If pollutant levels are beyond the threshold, a **Telegram alert** is sent to the user.  
+
+---
+
+## 📲 Example Telegram Alert
+
+<img width="1175" height="823" alt="image" src="https://github.com/user-attachments/assets/cd961922-0844-4651-bda2-ace125e52bb3" />
+
+---
+
+## 🧪 Installation & Setup
+
+### 1️⃣ Clone the project
+```bash
+git clone https://github.com/<your-github-username>/<repo-name>.git
+cd <repo-name>
+
