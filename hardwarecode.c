@@ -3,13 +3,13 @@
 #include <WiFiClientSecure.h>
 
 // ====== WiFi & Server ======
-const char* ssid = "laksi";
-const char* password = "12345678";
-const char* serverUrl = "http://10.40.241.237:3000/upload";  // Your backend upload URL
+const char* ssid = "username";
+const char* password = "your_password";
+const char* serverUrl = "paste_url";  // Your backend upload URL
 
 // ====== Telegram Bot ======
-const char* telegramToken = "8320808948:AAEk4_r_ICIGLGfpEzAZs_EuUl_Y2F_eGnM";  // Replace with your token
-const char* chatID = "5712507364";  // Replace with your chat ID
+const char* telegramToken = "bot_token";  // Replace with your token
+const char* chatID = "chat_id";  // Replace with your chat ID
 WiFiClientSecure client;
 
 // ====== Sensors ======
